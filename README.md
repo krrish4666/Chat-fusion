@@ -21,23 +21,23 @@ It is built using **Streamlit** for a clean UI, and integrates both **cloud-base
 
 ### 1. Clone this repository
 git clone https://github.com/krrish4666/Chat-fusion.git
-cd chat-fusion
+cd Chat-fusion
 
-2. Install dependencies
+### 2. Install dependencies
 
 pip install -r requirements.txt
 
-3. Add your Gemini API key
+### 3. Add your Gemini API key
 
 Set your API key as an environment variable:
 
 export GEMINI_API_KEY="your_api_key_here"   # Linux / macOS
 set GEMINI_API_KEY="your_api_key_here"      # Windows PowerShell
 
-4. Run the app
+### 4. Run the app
 streamlit run app.py
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Streamlit
  – frontend UI
