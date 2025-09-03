@@ -1,10 +1,3 @@
-Perfect 👍 Let’s generate a **well-structured README.md** for your GitHub repo with the proper sections and clean formatting.
-
----
-
-# 📄 README.md
-
-````markdown
 # 🤖 Chat Fusion: Gemini + Llama Chatbot
 
 Chat Fusion is a **hybrid AI chatbot** that combines the power of **Google Gemini (2.5 Pro & 2.5 Flash)** with a **locally hosted Llama model (TinyLlama-1.1B-Chat)**.  
@@ -34,56 +27,32 @@ GitHub Repo: [Chat Fusion](https://github.com/krrish4666/Chat-fusion)
 - [PyTorch](https://pytorch.org/) – deep learning backend  
 
 ---
-````
-## ⚡ Quick Start
-````
-````
-### 1. Clone the Repository
 
+## ⚡ Quick Start
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/krrish4666/Chat-fusion.git
 cd Chat-fusion
-````
-````
+```
 ### 2. Install Dependencies
-
+```
 pip install -r requirements.txt
 ```
-````
 ### 3. Set up API Key
 
 Export your Gemini API key as an environment variable:
 
-**Linux / macOS:**
+Linux / macOS:
 
-```bash
 export GEMINI_API_KEY="your_api_key_here"
-```
 
-**Windows PowerShell:**
+Windows PowerShell:
 
-```powershell
 set GEMINI_API_KEY="your_api_key_here"
-```
 
-Alternatively, create a `.env` file and load it in `app.py`.
 
-### 4. Run the App
+Alternatively, create a .env file and load it in app.py.
 
-```bash
+4. Run the App
 streamlit run app.py
-```
-
----
-
-## 👤 Author
-
-Built with ❤️ by [Krishna Yadav](https://github.com/krrish4666)
-
-```
-
----
-
- 
-
-Do you want me to also add **badges** (e.g., Python version, Streamlit, license) at the top to make the repo look more professional?
-```
