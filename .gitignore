@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# --- Virtual environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- OS / IDE specific ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+
+# --- Model / Data ---
+*.pt
+*.bin
+*.h5
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.csv
+*.tsv
+*.json
+*.yaml
+*.yml
+
+# --- API Keys / Secrets ---
+GEMINI_API_KEY
+*.key
+*.secret
+*.env
+
+# --- Build / Cache ---
+dist/
+build/
+.eggs/
+*.egg-info/
