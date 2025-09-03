@@ -54,11 +54,11 @@ set GEMINI_API_KEY="your_api_key_here"
 
 Alternatively, create a .env file and load it in app.py.
 
-4. Run the App
+### 4. Run the App
 ```bash
 streamlit run app.py
 ```
 
-👤 Author
+### 👤 Author
 
 Built with ❤️ by Krishna Yadav
