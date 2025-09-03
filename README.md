@@ -20,11 +20,11 @@ It is built using **Streamlit** for a clean UI, and integrates both **cloud-base
 ## ⚡ Quick Start
 
 ### 1. Clone this repository
-```bash
 git clone https://github.com/krrish4666/Chat-fusion.git
 cd chat-fusion
 
 2. Install dependencies
+
 pip install -r requirements.txt
 
 3. Add your Gemini API key
