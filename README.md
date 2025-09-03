@@ -36,7 +36,7 @@ git clone https://github.com/krrish4666/Chat-fusion.git
 cd Chat-fusion
 ```
 ### 2. Install Dependencies
-```
+```bash
 pip install -r requirements.txt
 ```
 ### 3. Set up API Key
@@ -44,15 +44,21 @@ pip install -r requirements.txt
 Export your Gemini API key as an environment variable:
 
 Linux / macOS:
-
+```bash
 export GEMINI_API_KEY="your_api_key_here"
-
+```
 Windows PowerShell:
-
+```bash
 set GEMINI_API_KEY="your_api_key_here"
-
+```
 
 Alternatively, create a .env file and load it in app.py.
 
 4. Run the App
+```bash
 streamlit run app.py
+```
+
+👤 Author
+
+Built with ❤️ by Krishna Yadav
