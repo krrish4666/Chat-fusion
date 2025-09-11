@@ -16,6 +16,7 @@ ENV/
 # --- Streamlit ---
 .streamlit/secrets.toml
 .streamlit/config.toml
+.streamlit/
 
 # --- OS / IDE specific ---
 .DS_Store
@@ -40,6 +41,7 @@ Thumbs.db
 *.json
 *.yaml
 *.yml
+*.faiss
 
 # --- API Keys / Secrets ---
 GEMINI_API_KEY
@@ -52,3 +54,16 @@ dist/
 build/
 .eggs/
 *.egg-info/
+
+# --- Temporary files ---
+*.tmp
+*.temp
+*.bak
+tmp/
+temp/
+*.db
+*.sqlite3
+
+# --- Local models (if downloaded or fine-tuned) ---
+model/
+models/

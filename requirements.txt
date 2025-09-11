@@ -2,3 +2,11 @@ streamlit>=1.32.0
 google-genai>=0.3.0
 torch>=2.2.0
 transformers>=4.40.0
+
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+pypdf
+unstructured
+markdown
