@@ -38,7 +38,7 @@ GitHub Repo: [Chat Fusion](https://github.com/krrish4666/Chat-fusion)
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/krrish4666/Chat-fusion.git](https://github.com/krrish4666/Chat-fusion.git)
+git clone https://github.com/krrish4666/Chat-fusion.git
 cd Chat-fusion
 ```
 ### 2. Install Dependencies
